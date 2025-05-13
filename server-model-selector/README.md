@@ -42,26 +42,29 @@ This project is a React application that helps users determine possible server m
     This will run the application in development mode and open it in your browser (usually at `http://localhost:3000`).
 
 ## Project Structure
-
+```
 ├── public/
 ├── src/
 │   ├── components/
-│   │   ├── ServerForm.tsx        // Input form component
-│   │   └── ServerOptions.tsx     // Output display component
-|   |   └── ServerConfigurator.tsx // Root component
+│   │   ├── ServerForm.tsx          // Input form component
+│   │   ├── ServerOptions.tsx       // Output display component
+│   │   └── ServerConfigurator.tsx  // Root component
 │   ├── utils/
-│   │   └── serverUtils.ts      // Utility functions for server logic
-│   ├── App.css                 // Global styles
-|   └── App.test.tsx        // Unit and integration tests
-│   ├── App.tsx                 // Main entry point rendering the Root component
+│   │   └── serverUtils.ts          // Utility functions for server logic
+│   ├── App.css                     // Global styles
+│   ├── App.test.tsx                // Unit and integration tests
+│   ├── App.tsx                     // Main entry point rendering the Root component
 │   ├── index.css
-│   ├── index.tsx               // Entry point for React rendering
+│   ├── index.tsx                   // Entry point for React rendering
 │   ├── react-app-env.d.ts
-│   ├── setupTests.ts
+│   └── setupTests.ts
 ├── .gitignore
-├── README.md                   // Current file
+├── README.md                       // Current file
 ├── package-lock.json
 └── package.json
+
+```
+
 
 ## Running Tests
 
